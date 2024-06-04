@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ascent24</title>
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- MDB -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.min.css" rel="stylesheet" />
+
+  <!-- MDB -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.umd.min.js"></script>
+
+
+
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+
+
+
+  <!-- owel -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+  <!-- nav-bar -->
+  <nav class="mx-5 " style="display: flex;justify-content: space-between;align-items: center;">
+
+
+    <div class="" style="display: flex;justify-content: center;align-items: center;">
+      <a href="">
+        <img class="logo-image" src="./image/ascent24_logo.png" alt="">
+      </a>
+    </div>
+
+    <div style="display: flex;justify-content: end;align-items: end;" class="d-lg-none mt-5 ">
+
+
+
+
+      <button style="background-color: rgb(203, 10, 10); border: 2px solid   rgb(203, 10, 10);" class="btn btn-primary "
+        type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"><i
+          class="fa-solid fa-bars"></i></button>
+
+      <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+        <div class="offcanvas-header">
+          <h5 id="offcanvasTopLabel">Offcanvas top</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <a class="mx-2 nav-text-colour" href="">
+            <p>Destination .</p>
+          </a>
+          <a class="mx-2  nav-text-colour" href="">
+            <p>Booking .</p>
+          </a>
+          <a class="mx-2  nav-text-colour" href="">
+            <p>Activities</p>
+          </a>
+          </a>
+          <a class="mx-2  nav-text-colour" href="">
+            <p><i class="fa-solid fa-magnifying-glass  nav-icon-colour"></i></p>
+          </a>
+          <a class="mx-3  nav-text-colour" href="">
+            <p>Log in</p>
+          </a>
+          <a class=" nav-text-colour " href="">
+            <button style="font-weight: bold;" type="button" class="btn btn-dark  px-4">Sign up</button>
+
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-5 d-md-none d-lg-flex d-none" style="justify-content: center;align-items: center;">
+      <a class="mx-3 nav-text-colour" href="">
+        <p>Destination .</p>
+      </a>
+      <a class="mx-3  nav-text-colour" href="">
+        <p>Booking .</p>
+      </a>
+      <a class="mx-3 nav-text-colour" href="">
+        <p>Activities</p>
+      </a>
+      <a class="mx-3  nav-text-colour" href="">
+        <p><i class="fa-solid fa-magnifying-glass  nav-icon-colour"></i></p>
+      </a>
+    </div>
+
+    <div class="mt-5 d-md-none d-lg-flex d-none  " style="justify-content: center;align-items: center;">
+      <a class="mx-3  nav-text-colour" href="">
+        <p>Log in</p>
+      </a>
+      <a class="mx-3 nav-text-colour" href="">
+        <button style="font-weight: bold;" type="button" class="btn btn-dark mb-3 px-4">Sign up</button>
+
+      </a>
+
+    </div>
+
+  </nav>
+
+  <!-- slider -->
+
+
+  <div  class="container-fluid mt-5  ">
+
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <!-- ... -->
+      <div class="carousel-inner">
+        <div class="carousel-item active  slider-bg " data-bs-interval="10000">
+          <!-- <img src="." class="d-block w-100  slider-bg" alt="..."> -->
+          <div class="container px-5">
+            <p style="display: flex;justify-content: start;align-items: start;" class="mt-5 mx-5 p-0 m-0 ">-
+              Blue Mountain Country Club and Resort</p>
+            <h5 style="display: flex;justify-content: start;align-items: start;;" class="  slider-heading  mx-5">Treebo
+              Tryst</h5>
+            <!-- button -->
+            <div class="mt-5 mx-5">
+
+              <p style="color: black;font-weight: bold;" class="mt-5">-02°C Very Cold</p>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
+                class="active  slider-arrow-btn" aria-current="true" aria-label="Slide 1"><i
+                  class="fa-solid fa-arrow-left"></i></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" class="slider-arrow-btn"
+                aria-label="Slide 0"><i class="fa-solid fa-arrow-right  "></i></button>
+            </div>
+            <!-- <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button> -->
+
+          </div>
+          <div class="carousel-caption d-none d-md-block mb-5 ">
+            <!-- /// -->
+          </div>
+
+        </div>
+        <div class="carousel-item  slider-bg" data-bs-interval="2000">
+          <!-- <img src="./image/bd.jpg" class="d-block w-100  slider-bg" alt="..."> -->
+
+          <div class="container px-5">
+            <p style="display: flex;justify-content: start;align-items: start;" class="mt-5 mx-5 p-0 m-0 ">-
+              Blue Mountain Country Club and Resort</p>
+            <h5 style="display: flex;justify-content: start;align-items: start;;" class="  slider-heading  mx-5">Treebo
+              Tryst</h5>
+
+            <!-- button -->
+            <div class="mt-5 mx-5">
+              <p style="color: black;font-weight: bold;" class="mt-5">-02°C Very Cold</p>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
+                class="active  slider-arrow-btn" aria-current="true" aria-label="Slide 1"><i
+                  class="fa-solid fa-arrow-left"></i></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" class="slider-arrow-btn"
+                aria-label="Slide 0"><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+          </div>
+          <div class="carousel-caption d-none d-md-block">
+
+          </div>
+        </div>
+        <!-- <div class="carousel-item  slider-bg">
+                   
+                    <div class="container px-5">
+                        <p style="display: flex;justify-content: start;align-items: start;" class="mt-5 mx-5 ">Some
+                            representative placeholder content for the first slide.</p>
+                            <h5 style="display: flex;justify-content: start;align-items: start;;"
+                            class="  slider-heading  mx-5">First slide label</h5>
+                        </div>
+                    <div class="carousel-caption d-none d-md-block">
+                       
+                    </div>
+                </div> -->
+      </div>
+      <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button> -->
+    </div>
+  </div>
+
+  <!-- banner -->
+  <div class="container banner-cont">
+    <div style="background-color: white;display: flex;justify-content: space-around;border-radius: 10px;"
+      class="row p-3  ">
+
+      <div style="display: flex;justify-content: space-evenly;align-items: center;"
+        class="col-lg-4 col-md-6 col-sm-12  banner-col">
+        <div class="banner-br-none  ">
+          <p class="banner-p">Location</p>
+          <a class="banner-a" href="">Enter Your Destionation... <span class="mx-3 "><i
+                class="fa-solid fa-location-dot  banner-icons"></i></span></a>
+        </div>
+      </div>
+      <div style="display: flex;justify-content: space-evenly;align-items: center;"
+        class="col-lg-3 col-md-6 col-sm-12  banner-col">
+        <div class="banner-br-none">
+
+          <p class="banner-p">Activity</p>
+          <a class="banner-a" href="">Bungee Jump <span class="mx-3"><i
+                class="fa-solid fa-circle-chevron-down  banner-icons"></i></span></a>
+        </div>
+
+      </div>
+
+      <div style="display: flex;justify-content: space-evenly;align-items: center;"
+        class="col-lg-3 col-md-6 col-sm-12  banner-col">
+        <div>
+          <p class="banner-p">Date</p>
+          <a class="banner-a" href="">Set date <span class="mx-3"><i
+                class="fa-solid fa-calendar-days banner-icons "></i></span></a>
+        </div>
+      </div>
+      <div style="display: flex;justify-content: center;align-items: center;"
+        class="col-lg-2 col-md-6 col-sm-12  banner-col">
+        <button class="banner-icon-btn p-2 px-2">
+          <i class="fa-solid fa-magnifying-glass  banner-icon-colour"></i>
+        </button>
+      </div>
+
+
+    </div>
+  </div>
+
+
+  <!-- owel -->
+  <div class="mt-5">
+    <div class="mx-5">
+      <h2 style=" color: black; font-weight: bold;">Trending2020</h2>
+      <p>Sost Brilliant reasons Entrada should be Your one-stop-shop!</p>
+    </div>
+    <!-- Set up your HTML -->
+
+    <div class="owl-carousel owl-theme">
+      <div class="item ">
+        <div class="card  " style="width: 18rem;">
+          <img src="./image/01.jpg" class="card-img-top  owel-img  " alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">United States</h5>
+            <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of
+              the card's content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="item  ">
+        <div class="card  " style="width: 18rem;">
+          <img src="./image/02.jpg" class="card-img-top  owel-img " alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">UAE</h5>
+            <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of
+              the card's content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="card" style="width: 18rem;">
+          <img src="./image/03.webp" class="card-img-top  owel-img  " alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">US</h5>
+            <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of
+              the card's content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="card" style="width: 18rem;">
+          <img src="./image/04.webp" class="card-img-top  owel-img  " alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">UK</h5>
+            <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of
+              the card's content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="card" style="width: 18rem;">
+          <img src="./image/05.png" class="card-img-top  owel-img  " alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">India</h5>
+            <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of
+              the card's content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="card" style="width: 18rem;">
+          <img src="./image/07.jpg" class="card-img-top  owel-img  " alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">United States</h5>
+            <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of
+              the card's content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="card" style="width: 18rem;">
+          <img src="./image/pexels-felipepelaquim-1895031.jpg" class="card-img-top  owel-img  " alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">UK</h5>
+            <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of
+              the card's content.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div style="background-color: white;">
+      <h2 style="color: rgb(203, 10, 10);" class="text-center p-3">Our Technology</h2>
+      <marquee behavior="scroll" direction="left">
+        <img src="./image/q1.png" alt="">
+        <img src="./image/q2.png" alt="">
+
+        <img src="./image/q3.png" alt="">
+
+        <img src="./image/q4.png" alt="">
+
+      </marquee>
+    </div>
+
+    <!-- footer -->
+
+    <footer  class="text-white mt-4 footer-img">
+      <div class="container-fluid p-4">
+        <!-- link -->
+        <section class="container">
+          <div class="row border-bottom">
+            <div class="col-lg-3 col-md-6 mt-5">
+              <h4 style="color: rgb(203, 10, 10)" class="footer-font-header">COMPANY</h4>
+              <ul class="list-unstyled mb-0">
+                <li class="pb-1">
+                  <a href="" class="footer-font-p1">Careers</a>
+                </li>
+                <li class="pb-1">
+                  <a href="" class="footer-font-p1">Portfolio</a>
+                </li>
+                <li class="pb-1">
+                  <a href="" class="footer-font-p1">Products</a>
+                </li>
+                <li class="pb-1">
+                  <a href="" class="footer-font-p1">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <!-- Quick Links  -->
+            <div class="col-lg-3 col-md-6 mt-5 mb-5">
+              <h4 style="color: rgb(203, 10, 10)" class="footer-font-header">
+                SERVICES
+              </h4>
+              <ul class="list-unstyled mb-4">
+                <li class="pb-1">
+                  <a href="#!" class="footer-font-p1">Mobile App Development</a>
+                </li>
+                <li class="pb-1">
+                  <a href="#!" class="footer-font-p1">Web App Development</a>
+                </li>
+                <li class="pb-1">
+                  <a href="#!" class="footer-font-p1">Ecommerce Application</a>
+                </li>
+                <li class="pb-1">
+                  <a href="#!" class="footer-font-p1">UI UX Development</a>
+                </li>
+
+                <li class="pb-1">
+                  <a href="#!" class="footer-font-p1">Cloud Computing</a>
+                </li>
+                <li class="pb-1">
+                  <a href="#!" class="footer-font-p1">Progressive Web Apps</a>
+                </li>
+                <li class="pb-1">
+                  <a href="#!" class="footer-font-p1">Web Portal Development</a>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Useful Links -->
+            <div class="col-lg-3 col-md-6 mt-5 mb-5">
+              <h4 style="color: rgb(203, 10, 10)" class="footer-font-header">
+                ON-DEMAND SOLUTIONS
+              </h4>
+              <ul class="list-unstyled mb-0">
+                <li class="pb-1">
+                  <a href="" class="footer-font-p1">Garment Management System</a>
+                </li>
+                <li class="pb-1">
+                  <a href="" class="footer-font-p1">Payroll Management System</a>
+                </li>
+                <li class="pb-1">
+                  <a href="" class="footer-font-p1">Textile Management System</a>
+                </li>
+                <li class="pb-1">
+                  <a href="" class="footer-font-p1">Fabric Management System</a>
+                </li>
+                <!-- <li class="pb-1">
+                                <a href="./dyeing-m-s.html" class="footer-font-p1">Dyeing & printing Management
+                                    System</a>
+                            </li> -->
+
+                <li class="pb-1">
+                  <a href="" class="footer-font-p1">Inventory</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mt-5">
+              <h4 style="color: rgb(203, 10, 10)" class="footer-font-header">
+                CONNECT WITH US
+              </h4>
+              <img class="img-fluid" src="./image/ascent24_logo.png" alt="" />
+
+              <!-- icons -->
+              <div class="">
+                <a style="
+                        text-decoration: none;
+                        padding-right: 10px;
+                        padding-left: 20px;
+                      " href="" class="text-reset">
+                  <i style="color: black" class="icons-1 fab fa-facebook-f g-5 footer-font-fb"></i>
+                </a>
+                <a style="text-decoration: none; padding-right: 10px" href="" class="text-reset">
+                  <i style="color: black" class="fa-brands fa-instagram footer-font-insta"></i>
+                </a>
+                <a style="text-decoration: none; padding-right: 10px" href="" class="text-reset">
+                  <i style="color: black" class="fa-brands fa-twitter footer-font-twitter"></i>
+                </a>
+                <a style="text-decoration: none" href="" class="text-reset">
+                  <i style="color: black" class="fa-brands fa-youtube footer-font-youtube"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- copy -->
+      <div class="row text-center">
+        <div class="col-lg-4 mt-2 mb-2">
+          <p style="color: black">
+            Copyright © 2024 Ascent24, All rights reserved.
+          </p>
+        </div>
+        <div style="display: flex; justify-content: center; align-items: center" class="col-lg-4 d-flex mt-2">
+          <a class="text-center" style="color: black" href="">
+            Privacy Policy
+          </a>
+          <!-- <a class="text-center" style="color: white;" href=""> T&C </a> -->
+        </div>
+        <div class="col-lg-4 mt-2 mb-2">
+          <p style="color: black">Powered by Ascent24</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- owel -->
+    <script>
+      $(".owl-carousel").owlCarousel({
+        rtl: true,
+        loop: true,
+        margin: 10,
+        nav: true,
+        navText: ["<h1>></h1>", "<h1><</h1>"],
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 2,
+          },
+          1000: {
+            items: 4,
+          },
+        },
+      });
+    </script>
+
+</body>
+
+</html>
