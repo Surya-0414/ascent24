@@ -312,7 +312,7 @@ a:hover {
         width: 0;
     }
 
-    .banner-col {
+    .banner-col1 {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -323,9 +323,20 @@ a:hover {
     font-size: 5px;
     margin-right: 10px;
 }
+.banner-res{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
 }
 
 @media screen and (max-width: 992px) {
+
+    .banner-res{
+        display: flex;
+        justify-content: start;
+        align-items: start;
+    }
     .slider-heading {
         font-size: 30px;
         font-weight: bold;
@@ -336,7 +347,7 @@ a:hover {
         width: 0;
     }
 
-    .banner-col {
+    .banner-col1 {
         display: block;
         justify-content: center;
         align-items: center;
