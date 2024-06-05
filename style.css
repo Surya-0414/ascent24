@@ -1,0 +1,358 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;700&display=swap");
+
+body {
+    overflow-x: hidden;
+    /* background-color: rgb(255, 255, 255) !important; */
+    background-color: rgb(246, 240, 228) !important;
+    /* font-family: "Oswald", sans-serif !important; */
+    font-family: "Lato", sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+    /* font-family: "Playfair Display", serif; */
+    font-family: "Lato", sans-serif;
+}
+
+a:hover {
+    color: #4e4e4e !important;
+}
+
+.logo-image {
+    height: 70px;
+}
+
+.nav-text-colour {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.nav-text-colour:hover {
+    color: rgb(203, 10, 10);
+}
+
+.nav-icon-colour {
+    font-size: 20px;
+}
+
+.slider-bg {
+    height: 450px;
+    width: 100%;
+    border-radius: 30px;
+    background-image: url(./image/banner1.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slider-bg2 {
+    height: 450px;
+    width: 100%;
+    border-radius: 30px;
+    background-image: url(./image/bd.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slider-bg1 {
+    height: 450px;
+    width: 100%;
+    border-radius: 30px;
+    background-image: url(./image/banner2.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slider-heading {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.slider-arrow-btn {
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid #000;
+}
+
+.banner-br-none {
+    width: 1px;
+    background-color: #aca9a9;
+    height: 100%;
+}
+
+.banner-cont {
+    margin-top: -50px;
+    z-index: 1000px;
+    position: relative;
+}
+
+.slider-icons {
+    font-size: 5px;
+}
+
+.owl-prev i,
+.owl-next i {
+    transform: scale(1, 1) !important;
+    font-size: 20px;
+    color: #000000 !important;
+}
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 45px;
+    height: 45px;
+    border-radius: 50% !important;
+    border: 2px solid #000 !important;
+    background: transparent;
+    /* Ensure initial background is transparent */
+}
+
+.owl-carousel .owl-nav button.owl-prev:hover,
+.owl-carousel .owl-nav button.owl-next:hover {
+    background: rgb(246,
+            240,
+            228) !important;
+    /* Transparent background on hover */
+}
+
+.banner-p {
+    color: #4e4e4e;
+    font-weight: bold;
+    margin: 0;
+}
+
+.banner-p:hover {
+    color: #4e4e4e;
+    font-weight: bold;
+    margin: 0;
+}
+
+.banner-a {
+    color: #4e4e4e;
+}
+
+.banner-icon-colour {
+    color: white;
+    width: 20px;
+    height: 20px;
+}
+
+.banner-icon-btn {
+    color: black;
+    background-color: black;
+    border-radius: 10px;
+    padding: 8px 12px;
+    border: 2px solid transparent;
+}
+
+.owel-img {
+    height: 200px;
+    width: 100px;
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel button.owl-dot {
+    font-size: 100px;
+}
+
+/* footer */
+
+.footer-font-header {
+    font-size: 19px;
+    /* font-weight: 700; */
+    letter-spacing: 0.05em;
+    word-spacing: 2px;
+    /* font-weight: bold; */
+}
+
+.footer-font-p1 {
+    color: black;
+    font-size: 14px;
+    /* font-weight: 700; */
+    letter-spacing: 0.05em;
+    word-spacing: 2px;
+    /* font-weight: bold; */
+}
+
+.footer-font-p1:hover {
+    color: rgb(203, 10, 10);
+}
+
+.footer-font-fb {
+    color: white;
+}
+
+.footer-font-fb:hover {
+    color: blue;
+}
+
+.footer-font-insta {
+    color: white;
+}
+
+.footer-font-insta:hover {
+    color: palevioletred;
+}
+
+.footer-font-twitter {
+    color: white;
+}
+
+.footer-font-twitter:hover {
+    color: skyblue;
+}
+
+.footer-font-youtube {
+    color: white;
+}
+
+.footer-font-youtube:hover {
+    color: red;
+}
+
+.footer-img {
+    background-color: gainsboro;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+.owl-carousel {
+    /* margin-top: 10%; */
+    position: relative;
+}
+
+.owl-prev,
+.owl-next {
+    width: 15px;
+    height: 100px;
+    position: absolute;
+    top: -15%;
+    transform: translateY(-50%);
+    display: block !important;
+    border: 0px solid black;
+}
+
+.owl-prev {
+    left: 80%;
+}
+
+.owl-next {
+    right: 10%;
+}
+
+.owl-prev i,
+.owl-next i {
+    transform: scale(2, 5);
+    color: #ccc;
+}
+
+@media screen and (max-width: 767px) {
+    .owl-prev {
+        left: 70%;
+    }
+
+    .owl-next {
+        right: 5%;
+    }
+
+    .slider-bg2 {
+        height: 450px;
+        width: 100%;
+        border-radius: 30px;
+        background-image: url(./image/banner2.avif);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .slider-bg {
+        height: 450px;
+        width: 100%;
+        border-radius: 30px;
+        background-image: url(./image/banner1.avif);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .sldier-bg1 {
+        height: 450px;
+        width: 100%;
+        border-radius: 30px;
+        background-image: url(./image/banner1.avif);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .slider-heading {
+        font-size: 20px;
+        font-weight: bold;
+        white-space: nowrap;
+    }
+
+    .banner-br-none {
+        width: 0;
+    }
+
+    .banner-col {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: 1px solid rgb(210, 202, 202); */
+        width: 100%;
+    }
+    .slider-icons1 {
+    font-size: 5px;
+    margin-right: 10px;
+}
+}
+
+@media screen and (max-width: 992px) {
+    .slider-heading {
+        font-size: 30px;
+        font-weight: bold;
+        white-space: nowrap;
+    }
+
+    .banner-br-none {
+        width: 0;
+    }
+
+    .banner-col {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        /* border: 1px solid rgb(210, 202, 202); */
+        width: 100%;
+    }
+    .slider-icons1 {
+    font-size: 5px;
+    margin-right: 10px;
+}
+}
+
+@media screen and (max-width: 1280px) {}
+
+.black-dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #000;
+}
