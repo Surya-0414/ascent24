@@ -264,11 +264,12 @@ a:hover {
 
 @media screen and (max-width: 767px) {
     .owl-prev {
-        left: 70%;
+        left: 67%;
     }
 
     .owl-next {
-        right: 5%;
+        right: 0%;
+
     }
 
     .slider-bg2 {
